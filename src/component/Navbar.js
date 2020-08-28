@@ -1,13 +1,12 @@
 import React from "react";
-import logo from "../images/logo.jpg";
+// import logo from "../images/logo.jpg";
 import { Link } from "react-router-dom";
-// import "./Navbar.css";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link to="/" className="navbar-brand">
-        <img src={logo} alt="logo" style={{ height: "25%", width: "25%" }} />
+        {/*<img src={logo} alt="logo" style={{ height: "25%", width: "25%" }} /> */}
       </Link>
       <div className="collapse navbar-collapse show ml-sm-5">
         <ul className="navbar-nav">
